@@ -21,6 +21,10 @@ namespace ExceptionTest
             } catch (Exception e)
             {
                 Console.WriteLine($"\nOcorreu o seguinte erro: {e.Message}");
+            } finally
+            {
+                Console.WriteLine("\nObrigado por ter utilizado este " +
+                    "programa!");
             }
         }
     }
